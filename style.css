@@ -11,34 +11,18 @@ body {
     padding: 0;
 }
 
+/*LOG IND SIDE*/
+
 .logind {
     position: relative;
-    background-color: #DEDCDB;
-    height: 1000px;
-    width: 1000px;
-}
-
-.bruger {
-    background-image: url(produktion/bruger.png);
-    width: 295px;
-    height: 48px;
-    position: absolute;
-    top: 45vw;
-    left: 10vw;
-}
-
-.pass {
-    background-image: url(produktion/pass.png);
-    width: 295px;
-    height: 48px;
-    position: absolute;
-    top: 65vw;
-    left: 10vw;
+    background-color: #FAF7F7;
+    height: 812px;
+    width: 375px;
 }
 
 .keaheader {
     background-color: #EA5045;
-    width: 500px;
+    width: 375px;
     height: 240px;
     position: relative;
 }
@@ -52,3 +36,97 @@ body {
     top: 25vw;
     left: 33vw;
 }
+
+.logindform {}
+
+input {
+    width: 350px;
+    margin: 8px;
+    padding: 12px;
+}
+
+input[type=mail] {
+    width: 80%;
+    padding: 15px 22px;
+    margin: 10px 35px;
+    box-sizing: border-box;
+    border: 1px solid #FAF7F7;
+    border-radius: 100px;
+    position: absolute;
+    top: 30vw;
+}
+
+input[type=pass] {
+    width: 80%;
+    padding: 15px 22px;
+    margin: 10px 35px;
+    box-sizing: border-box;
+    border: 1px solid #FAF7F7;
+    border-radius: 100px;
+    position: absolute;
+    top: 50vw;
+}
+
+input[type=submit] {
+    width: 80%;
+    background-color: #EA5045;
+    padding: 15px 22px;
+    margin: 10px 35px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    top: 90vw;
+}
+
+input[type=facebook] {
+    width: 80%;
+    padding: 15px 22px;
+    margin: 15px 35px;
+    box-sizing: border-box;
+    border: 1px solid #EA5045;
+    border-radius: 20px;
+    color: #EA5045;
+    text-align: center;
+    background-image: url(produktion/fblogo.png);
+    background-repeat: no-repeat;
+    background-position: 20px;
+    position: absolute;
+    top: 110vw;
+}
+
+
+
+
+
+/*
+.pass {
+    background-image: url(produktion/pass.png);
+    width: 295px;
+    height: 48px;
+    position: absolute;
+    top: 45vw;
+    left: 10vw;
+}
+*/
+
+
+/*
+.continue {
+    background-image: url(produktion/Continue.png);
+    width: 295px;
+    height: 48px;
+    position: absolute;
+    top: 100vw;
+    left: 10vw;
+}
+
+.facebook {
+    background-image: url(produktion/facebook.png);
+    width: 295px;
+    height: 48px;
+    position: absolute;
+    top: 120vw;
+    left: 10vw;
+}
+*/
