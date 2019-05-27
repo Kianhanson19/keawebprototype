@@ -1,0 +1,15 @@
+.keaheader {
+    background-color: #EA5045;
+    width: 500px;
+    height: 240px;
+    position: relative;
+}
+
+.keaimg {
+    background-image: url(billeder/kea.png);
+    background-repeat: no-repeat;
+    width: 127px;
+    height: 32px;
+    position: absolute;
+    top: 25vw;
+    left: 33vw;
