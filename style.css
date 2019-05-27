@@ -1,3 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logind {
+    position: relative;
+    background-color: #DEDCDB;
+    height: 1000px;
+    width: 1000px;
+}
+
+.bruger {
+    background-image: url(produktion/bruger.png);
+    width: 295px;
+    height: 48px;
+    position: absolute;
+    top: 45vw;
+    left: 10vw;
+}
+
+.pass {
+    background-image: url(produktion/pass.png);
+    width: 295px;
+    height: 48px;
+    position: absolute;
+    top: 65vw;
+    left: 10vw;
+}
+
 .keaheader {
     background-color: #EA5045;
     width: 500px;
@@ -6,10 +44,11 @@
 }
 
 .keaimg {
-    background-image: url(billeder/kea.png);
+    background-image: url(produktion/kea.png);
     background-repeat: no-repeat;
     width: 127px;
     height: 32px;
     position: absolute;
     top: 25vw;
     left: 33vw;
+}
