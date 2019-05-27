@@ -1,3 +1,11 @@
+/*
+-----------------------------------------------------
+1. GENERELLE INDSTILLINGER
+-----------------------------------------------------
+*/
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -11,15 +19,14 @@ body {
     padding: 0;
 }
 
-/*LOG IND SIDE*/
+/*
+-----------------------------------------------------
+2. LOG IND SIDE
+-----------------------------------------------------
+*/
 
-.logind {
-    position: relative;
-    background-color: #FAF7F7;
-    height: 812px;
-    width: 375px;
-}
 
+/*Header farve og str til iPhone X*/
 .keaheader {
     background-color: #EA5045;
     width: 375px;
@@ -27,6 +34,7 @@ body {
     position: relative;
 }
 
+/*Logo*/
 .keaimg {
     background-image: url(produktion/kea.png);
     background-repeat: no-repeat;
@@ -37,14 +45,15 @@ body {
     left: 33vw;
 }
 
-.logindform {}
-
-input {
-    width: 350px;
-    margin: 8px;
-    padding: 12px;
+/*Parent div*/
+.logind {
+    position: relative;
+    background-color: #FAF7F7;
+    height: 812px;
+    width: 375px;
 }
 
+/*input/form mail*/
 input[type=mail] {
     width: 80%;
     padding: 15px 22px;
@@ -56,6 +65,7 @@ input[type=mail] {
     top: 30vw;
 }
 
+/*input/form pass*/
 input[type=pass] {
     width: 80%;
     padding: 15px 22px;
@@ -67,6 +77,7 @@ input[type=pass] {
     top: 50vw;
 }
 
+/*input/form submit*/
 input[type=submit] {
     width: 80%;
     background-color: #EA5045;
@@ -79,6 +90,7 @@ input[type=submit] {
     top: 90vw;
 }
 
+/*input/form facebook*/
 input[type=facebook] {
     width: 80%;
     padding: 15px 22px;
@@ -94,39 +106,3 @@ input[type=facebook] {
     position: absolute;
     top: 110vw;
 }
-
-
-
-
-
-/*
-.pass {
-    background-image: url(produktion/pass.png);
-    width: 295px;
-    height: 48px;
-    position: absolute;
-    top: 45vw;
-    left: 10vw;
-}
-*/
-
-
-/*
-.continue {
-    background-image: url(produktion/Continue.png);
-    width: 295px;
-    height: 48px;
-    position: absolute;
-    top: 100vw;
-    left: 10vw;
-}
-
-.facebook {
-    background-image: url(produktion/facebook.png);
-    width: 295px;
-    height: 48px;
-    position: absolute;
-    top: 120vw;
-    left: 10vw;
-}
-*/
