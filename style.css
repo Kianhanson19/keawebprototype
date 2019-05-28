@@ -472,4 +472,363 @@ input[type=facebook] {
 
 }
 
-.foward {}
+.del3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 120px;
+}
+
+.tid_con {
+    display: flex;
+    flex-direction: column;
+}
+
+.tid1 {
+    border: solid 1px lightgray;
+    width: 90px;
+    height: 60px;
+}
+
+.tid2 {
+    border: solid 1px lightgray;
+    width: 90px;
+    height: 60px;
+}
+
+.modul1 {
+    height: 120px;
+    width: 270px;
+    background-color: #f1f2f0;
+    display: flex;
+    flex-direction: column;
+}
+
+.tid1 p {
+    margin: 0;
+    font-size: 1rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #BCC5D3;
+    padding-top: 6px;
+
+}
+
+.tid2 p {
+    margin: 0;
+    font-size: 1rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #BCC5D3;
+    padding-top: 6px;
+
+}
+
+.modul1 h1 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-style: semi-bold;
+    font-weight: 100;
+    text-align: left;
+    color: black;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.modul1 p {
+    margin: 0;
+    font-size: 0.8rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: black;
+    padding-left: 5px;
+}
+
+.fyld {
+    width: 100%;
+    height: 19px;
+    background-color: #faf7f7;
+}
+
+.del4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 120px;
+}
+
+
+
+.tid3 {
+    border: solid 1px lightgray;
+    width: 90px;
+    height: 60px;
+}
+
+.tid4 {
+    border: solid 1px lightgray;
+    width: 90px;
+    height: 60px;
+}
+
+.modul2 {
+    height: 120px;
+    width: 270px;
+    background-color: #f1f2f0;
+    display: flex;
+    flex-direction: column;
+}
+
+.tid3 p {
+    margin: 0;
+    font-size: 1rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #BCC5D3;
+    padding-top: 6px;
+
+}
+
+.tid4 p {
+    margin: 0;
+    font-size: 1rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #BCC5D3;
+    padding-top: 6px;
+
+}
+
+.modul2 h1 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-style: semi-bold;
+    font-weight: 100;
+    text-align: left;
+    color: black;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.modul2 p {
+    margin: 0;
+    font-size: 0.8rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: black;
+    padding-left: 5px;
+}
+
+.fyld1 {
+    width: 100%;
+    height: 19px;
+    background-color: #faf7f7;
+}
+
+
+
+
+
+.del5 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 120px;
+}
+
+
+
+.tid5 {
+    border: solid 1px lightgray;
+    width: 90px;
+    height: 60px;
+}
+
+.tid6 {
+    border: solid 1px lightgray;
+    width: 90px;
+    height: 60px;
+}
+
+.modul3 {
+    height: 60px;
+    width: 270px;
+    background-color: #f1f2f0;
+    display: flex;
+    flex-direction: column;
+}
+
+.modul_blank {
+    height: 60px;
+    width: 285px;
+    background-color: white;
+    border: solid 1px lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.tid5 p {
+    margin: 0;
+    font-size: 1rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #BCC5D3;
+    padding-top: 6px;
+
+}
+
+.tid6 p {
+    margin: 0;
+    font-size: 1rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #BCC5D3;
+    padding-top: 6px;
+
+}
+
+.modul3 h1 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-style: semi-bold;
+    font-weight: 100;
+    text-align: left;
+    color: black;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.modul3 p {
+    margin: 0;
+    font-size: 0.8rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: black;
+    padding-left: 5px;
+}
+
+.fyld2 {
+    width: 100%;
+    height: 19px;
+    background-color: #faf7f7;
+}
+
+.del6 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 120px;
+}
+
+
+
+.tid7 {
+    border: solid 1px lightgray;
+    width: 90px;
+    height: 60px;
+}
+
+.tid8 {
+    border: solid 1px lightgray;
+    width: 90px;
+    height: 60px;
+}
+
+.modul_blank1 {
+    height: 60px;
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px lightgray;
+}
+
+.modul_blank2 {
+    height: 60px;
+    width: 285px;
+    background-color: white;
+    border: solid 1px lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.tid7 p {
+    margin: 0;
+    font-size: 1rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #BCC5D3;
+    padding-top: 6px;
+
+}
+
+.tid8 p {
+    margin: 0;
+    font-size: 1rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #BCC5D3;
+    padding-top: 6px;
+
+}
+
+.fod {
+    width: 100%;
+    height: 50px;
+    background-color: #3f3140;
+    display: flex;
+}
+
+.del7 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    width: 100%;
+}
+
+.del7 p {
+    padding-left: 10px;
+    font-family: canada-type-gibson, sans-serif;
+    font-style: semi-bold;
+    font-weight: 100;
+}
