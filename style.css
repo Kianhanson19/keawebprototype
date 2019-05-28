@@ -1,10 +1,13 @@
 /*
 -----------------------------------------------------
-1. GENERELLE INDSTILLINGER
+1. GENERELLE INDSTILLINGER OG BURGERMENU
 -----------------------------------------------------
 */
 
-
+.hidden {
+    display: none;
+    visibility: hidden;
+}
 
 * {
     box-sizing: border-box;
@@ -17,6 +20,107 @@ html {
 body {
     margin: 0;
     padding: 0;
+}
+
+#menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    font-family: "gibson", sans-serif;
+    text-align: center;
+    z-index: 11;
+    margin: 0;
+    font-size: 1.5rem;
+    color: #EA5045;
+    background-color: #3F3140;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: transform .4s;
+    max-width: 375px;
+    margin: 0 auto;
+
+
+}
+
+/* orange stykke i toppen af skærm */
+#orangebackground2 {
+    background-color: #EA5045;
+    max-width: 375px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+/* burgermenu forside */
+
+#menuknap {
+    width: 4vw;
+    height: 4vw;
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 5vw;
+    right: 15vw;
+    z-index: 50;
+}
+
+#kealogo {
+    background-image: url(kea.svg);
+    width: 10vw;
+    height: 10vw;
+    top: 5vw;
+    right: 2vw;
+}
+
+.kealogo2 {
+    padding: 30px 20px;
+}
+
+/* profillogo */
+
+#profillogo {
+    background-image: url(Profile.svg);
+    width: 4vw;
+    height: 4vw;
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 5vw;
+    right: 22vw
+}
+
+#menu a {
+    text-decoration: none;
+    font-family: "gibson", sans-serif;
+    margin-bottom: 4vw;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #EA847C;
+    margin-top: 10vw;
+    text-align: center;
+}
+
+.logudbox {
+    background-color: #F58E81;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 1rem 0;
+
+
+
+}
+
+.logudtxt {
+    color: #FFFFFF;
 }
 
 /*
@@ -120,6 +224,7 @@ input[type=facebook] {
 }
 
 
+/*
 #forside .keaheader {
     background-color: #EA5045;
     width: 100%;
@@ -127,14 +232,7 @@ input[type=facebook] {
     background-position: 20px;
     background-repeat: no-repeat;
 }
-
-#forside .keaimg {
-    background-image: url(produktion/kea.png);
-    width: 100%;
-    height: 100px;
-    background-repeat: no-repeat;
-
-}
+*/
 
 
 /*Parent div indstillinger*/
@@ -235,6 +333,11 @@ input[type=facebook] {
     font-weight: 100;
     color: #F58E81;
     padding: 8px;
+
+}
+
+#pforside a {
+    text-decoration: none;
 }
 
 .text1 {
@@ -252,3 +355,121 @@ input[type=facebook] {
     color: #F58E81;
     font-size: 2rem;
 }
+
+/*
+-----------------------------------------------------
+4. SKEMA
+-----------------------------------------------------*/
+#kalender {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 375px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.del1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #DEDCDB;
+    width: 375px;
+    height: 77px;
+
+}
+
+.box1 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-self: center;
+}
+
+.box2 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    text-align: right;
+    align-self: center;
+
+}
+
+.box1 h1 {
+    font-size: 1.4rem;
+    color: #3F3140;
+    font-family: canada-type-gibson, sans-serif;
+    font-style: semi-bold;
+    font-weight: 100;
+    padding-left: 14px;
+}
+
+.box1 p {
+    font-size: 1rem;
+    color: #707070;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 14px;
+}
+
+.box2 h2 {
+    font-size: 1.3rem;
+    color: #707070;
+    font-family: canada-type-gibson, sans-serif;
+    font-style: semi-bold;
+    font-weight: 100;
+    padding-right: 14px;
+
+}
+
+.box2 p {
+    font-size: 1rem;
+    color: #707070;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-right: 14px;
+}
+
+.del2 {
+    display: flex;
+    background-color: #3F3140;
+    width: 375px;
+    height: 77px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.del2 h2 {
+    margin: auto;
+    font-size: 1rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-style: semi-bold;
+    font-weight: 100;
+    color: white;
+}
+
+.del2 p {
+    margin: top;
+    font-size: 0.6rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-style: semi-bold;
+    font-weight: 100;
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.del2 h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+
+}
+
+.foward {}
