@@ -25,32 +25,31 @@ body {
 -----------------------------------------------------
 */
 
-
-/*Header farve og str til iPhone X*/
-.keaheader {
-    background-color: #EA5045;
-    width: 375px;
-    height: 240px;
-    position: relative;
+#login {
+    width: 100vw;
+    max-width: 375px;
+    margin: 0 auto;
 }
 
-/*Logo*/
-.keaimg {
+/*Header farve og str til iPhone X*/
+#login .keaheader {
+    background-color: #EA5045;
     background-image: url(produktion/kea.png);
+    height: 240px;
+    position: relative;
+    background-position: center;
     background-repeat: no-repeat;
-    width: 127px;
-    height: 32px;
-    position: absolute;
-    top: 25vw;
-    left: 33vw;
+}
+
+
+
 }
 
 /*Parent div*/
-.logind {
+#login .logind {
     position: relative;
     background-color: #FAF7F7;
     height: 812px;
-    width: 375px;
 }
 
 /*input/form mail*/
@@ -61,8 +60,8 @@ input[type=mail] {
     box-sizing: border-box;
     border: 1px solid #FAF7F7;
     border-radius: 100px;
-    position: absolute;
     top: 30vw;
+
 }
 
 /*input/form pass*/
@@ -105,4 +104,133 @@ input[type=facebook] {
     background-position: 20px;
     position: absolute;
     top: 110vw;
+}
+
+/*
+-----------------------------------------------------
+3. FORSIDE
+-----------------------------------------------------
+*/
+
+
+#forside {
+    height: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+
+#forside .keaheader {
+    background-color: #EA5045;
+    width: 100%;
+    height: 50px;
+    background-position: 20px;
+    background-repeat: no-repeat;
+}
+
+#forside .keaimg {
+    background-image: url(produktion/kea.png);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+
+}
+
+
+/*Parent div indstillinger*/
+#pforside {
+    background-color: #faf7f7;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+
+}
+
+.menubox {
+    display: flex;
+    flex-grow: 1;
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.techlounge {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 220px;
+    height: 110px;
+    background-color: white;
+    margin: 5px;
+}
+
+.keamail {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    margin: 5px;
+}
+
+.col2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.afleveringer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aktuelt {
+    display: flex;
+    flex-grow: 1;
+    width: 220px;
+    height: 225px;
+    background-color: white;
+    margin: 5px;
+}
+
+.text {
+    font-family: canada-type-gibson, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.text1 {
+    font-family: canada-type-gibson, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.text2 {
+    font-family: canada-type-gibson, sans-serif;
+    font-style: normal;
+    font-weight: 100;
 }
