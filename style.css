@@ -71,6 +71,14 @@ body {
     z-index: 50;
 }
 
+.kalender2 {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-self: center;
+    margin-left: 50px;
+}
+
 #kealogo {
     background-image: url(kea.svg);
     width: 10vw;
@@ -81,6 +89,7 @@ body {
 
 .kealogo2 {
     padding: 30px 20px;
+    display: flex;
 }
 
 /* profillogo */
@@ -130,7 +139,7 @@ body {
 */
 
 #login {
-    width: 100vw;
+    width: 100%;
     max-width: 375px;
     margin: 0 auto;
 }
@@ -170,9 +179,9 @@ input[type=mail] {
 
 /*input/form pass*/
 input[type=pass] {
-    width: 80%;
+    width: 60%;
     padding: 15px 22px;
-    margin: 10px 35px;
+    margin: 80px 35px;
     box-sizing: border-box;
     border: 1px solid #FAF7F7;
     border-radius: 100px;
@@ -182,10 +191,10 @@ input[type=pass] {
 
 /*input/form submit*/
 input[type=submit] {
-    width: 80%;
+    width: 60%;
     background-color: #EA5045;
     padding: 15px 22px;
-    margin: 10px 35px;
+    margin: 35px 35px;
     box-sizing: border-box;
     border-radius: 20px;
     color: white;
@@ -195,9 +204,9 @@ input[type=submit] {
 
 /*input/form facebook*/
 input[type=facebook] {
-    width: 80%;
+    width: 60%;
     padding: 15px 22px;
-    margin: 15px 35px;
+    margin: 1px 35px;
     box-sizing: border-box;
     border: 1px solid #EA5045;
     border-radius: 20px;
@@ -837,4 +846,107 @@ input[type=facebook] {
     font-family: canada-type-gibson, sans-serif;
     font-style: semi-bold;
     font-weight: 100;
+}
+
+
+/*
+----------------------------------
+5. Materialer
+---------------------------------*/
+
+#materialer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.materialer_con {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.slides_div1 {
+    display: flex;
+    align-self: center;
+    width: 95%;
+    height: 80px;
+    background-color: #F2F1F0;
+    margin-top: 20px;
+}
+
+.slides_div2 {
+    display: flex;
+    align-self: center;
+    width: 95%;
+    height: 80px;
+    background-color: #F2F1F0;
+    margin-top: 20px;
+}
+
+.styletile {
+    display: flex;
+    align-self: center;
+    width: 95%;
+    height: 80px;
+    background-color: #F2F1F0;
+    margin-top: 20px;
+}
+
+.h1_materialer {
+    margin: 0;
+    font-size: 1rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-style: semi-bold;
+    font-weight: 100;
+    text-align: left;
+    color: black;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.p_materialer {
+    margin: 0;
+    font-size: 0.8rem;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: black;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+
+.download_con {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.down_asset {
+    float: right;
+    padding-left: 315px;
+}
+
+.down_asset2 {
+    float: right;
+}
+
+.styletile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.att_materialer {
+    float: right;
+    padding-right: 20px;
+}
+
+.white_space {
+    width: 100%;
+    height: 200px;
 }
