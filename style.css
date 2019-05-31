@@ -1,6 +1,16 @@
 /*
 -----------------------------------------------------
 1. GENERELLE INDSTILLINGER OG BURGERMENU
+2. LOG IND SIDE
+3. FORSIDE
+4. SKEMA
+5. MATERIALER
+-----------------------------------------------------
+*/
+
+/*
+-----------------------------------------------------
+1. GENERELLE INDSTILLINGER OG BURGERMENU
 -----------------------------------------------------
 */
 
@@ -156,8 +166,6 @@ body {
 
 
 
-}
-
 /*Parent div*/
 #login .logind {
     position: relative;
@@ -179,19 +187,19 @@ input[type=mail] {
 
 /*input/form pass*/
 input[type=pass] {
-    width: 60%;
+    width: 80%;
     padding: 15px 22px;
-    margin: 80px 35px;
+    margin: 8px 35px;
     box-sizing: border-box;
     border: 1px solid #FAF7F7;
     border-radius: 100px;
     position: absolute;
-    top: 50vw;
+    top: 20vw;
 }
 
 /*input/form submit*/
 input[type=submit] {
-    width: 60%;
+    width: 80%;
     background-color: #EA5045;
     padding: 15px 22px;
     margin: 35px 35px;
@@ -199,12 +207,12 @@ input[type=submit] {
     border-radius: 20px;
     color: white;
     position: absolute;
-    top: 90vw;
+    top: 50vw;
 }
 
 /*input/form facebook*/
 input[type=facebook] {
-    width: 60%;
+    width: 80%;
     padding: 15px 22px;
     margin: 1px 35px;
     box-sizing: border-box;
@@ -216,7 +224,7 @@ input[type=facebook] {
     background-repeat: no-repeat;
     background-position: 20px;
     position: absolute;
-    top: 110vw;
+    top: 70vw;
 }
 
 /*
@@ -233,17 +241,6 @@ input[type=facebook] {
 }
 
 
-/*
-#forside .keaheader {
-    background-color: #EA5045;
-    width: 100%;
-    height: 50px;
-    background-position: 20px;
-    background-repeat: no-repeat;
-}
-*/
-
-
 /*Parent div indstillinger*/
 #pforside {
     background-color: #faf7f7;
@@ -253,6 +250,7 @@ input[type=facebook] {
 
 }
 
+/*Indstillinger for child div*/
 .menubox {
     display: flex;
     flex-grow: 1;
@@ -266,6 +264,7 @@ input[type=facebook] {
 
 }
 
+/*Indstillinger for child div*/
 .techlounge {
     display: flex;
     flex-wrap: wrap;
@@ -278,6 +277,7 @@ input[type=facebook] {
     align-items: center;
 }
 
+/*Indstillinger for child div*/
 .keamail {
     display: flex;
     flex-wrap: wrap;
@@ -289,42 +289,8 @@ input[type=facebook] {
     flex-direction: column;
 }
 
-.col2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
 
-/*
-.menubox1 {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    width: 110px;
-    height: 110px;
-    background-color: white;
-    margin: 5px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-*/
-
-/*
-.afleveringer {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    width: 110px;
-    height: 110px;
-    background-color: white;
-    margin: 5px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-*/
-
+/*Indstillinger for child div*/
 .aktuelt {
     display: flex;
     flex-grow: 1;
@@ -336,12 +302,13 @@ input[type=facebook] {
     align-items: center;
 }
 
+/*undertekst*/
 .text {
     font-family: canada-type-gibson, sans-serif;
     font-style: semi-bold;
     font-weight: 100;
     color: #F58E81;
-    padding: 8px;
+    padding: 5px;
 
 }
 
@@ -349,6 +316,7 @@ input[type=facebook] {
     text-decoration: none;
 }
 
+/*undertekst*/
 .text1 {
     font-family: canada-type-gibson, sans-serif;
     font-style: semi-bold;
@@ -357,6 +325,7 @@ input[type=facebook] {
     font-size: 1.5rem;
 }
 
+/*undertekst*/
 .text2 {
     font-family: canada-type-gibson, sans-serif;
     font-style: semi-bold;
@@ -369,6 +338,8 @@ input[type=facebook] {
 -----------------------------------------------------
 4. SKEMA
 -----------------------------------------------------*/
+
+/*Indstillinger for parent*/
 #kalender {
     display: flex;
     flex-wrap: wrap;
@@ -387,6 +358,7 @@ input[type=facebook] {
 
 }
 
+/*Indstillinger for child - flex*/
 .box1 {
     display: flex;
     flex-grow: 1;
@@ -403,6 +375,7 @@ input[type=facebook] {
 
 }
 
+/*typografi instillinger*/
 .box1 h1 {
     font-size: 1.4rem;
     color: #3F3140;
@@ -451,6 +424,7 @@ input[type=facebook] {
 
 }
 
+/*typografi instillinger*/
 .del2 h2 {
     margin: auto;
     font-size: 1rem;
@@ -461,7 +435,7 @@ input[type=facebook] {
 }
 
 .del2 p {
-    margin: top;
+    margin-top: auto;
     font-size: 0.6rem;
     font-family: canada-type-gibson, sans-serif;
     font-style: semi-bold;
@@ -481,6 +455,7 @@ input[type=facebook] {
 
 }
 
+/*Flex og størelser*/
 .del3 {
     display: flex;
     flex-wrap: wrap;
@@ -519,6 +494,7 @@ input[type=facebook] {
     padding-right: 10px;
 }
 
+/*Typografi*/
 .tid1 p {
     margin: 0;
     font-size: 1rem;
@@ -576,6 +552,7 @@ input[type=facebook] {
     background-color: #faf7f7;
 }
 
+/*Flex indstillinger*/
 .del4 {
     display: flex;
     flex-wrap: wrap;
@@ -605,6 +582,7 @@ input[type=facebook] {
     flex-direction: column;
 }
 
+/*Typografi*/
 .tid3 p {
     margin: 0;
     font-size: 1rem;
@@ -665,7 +643,7 @@ input[type=facebook] {
 
 
 
-
+/*Flex indstillinger*/
 .del5 {
     display: flex;
     flex-wrap: wrap;
@@ -704,6 +682,7 @@ input[type=facebook] {
     flex-direction: column;
 }
 
+/*Typografi*/
 .tid5 p {
     margin: 0;
     font-size: 1rem;
@@ -799,6 +778,7 @@ input[type=facebook] {
     flex-direction: column;
 }
 
+/*Typografi*/
 .tid7 p {
     margin: 0;
     font-size: 1rem;
@@ -834,6 +814,7 @@ input[type=facebook] {
     display: flex;
 }
 
+/*Flexindstillinger footer*/
 .del7 {
     display: flex;
     color: white;
@@ -851,9 +832,9 @@ input[type=facebook] {
 
 /*
 ----------------------------------
-5. Materialer
+5. MATERIALER
 ---------------------------------*/
-
+/*Parent indstillinger og flex*/
 #materialer {
     display: flex;
     flex-wrap: wrap;
@@ -867,6 +848,8 @@ input[type=facebook] {
     height: auto;
     flex-direction: column;
 }
+
+/*Indstillinger, størrelser og flex for de enkelter diver*/
 
 .slides_div1 {
     display: flex;
@@ -895,6 +878,7 @@ input[type=facebook] {
     margin-top: 20px;
 }
 
+/*Typografi*/
 .h1_materialer {
     margin: 0;
     font-size: 1rem;
@@ -919,6 +903,7 @@ input[type=facebook] {
     margin-top: 10px;
 }
 
+/*Indstillinger for knapper*/
 
 .download_con {
     display: flex;
