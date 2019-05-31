@@ -174,7 +174,7 @@ body {
 }
 
 /*input/form mail*/
-input[type=mail] {
+input[type=email] {
     width: 80%;
     padding: 15px 22px;
     margin: 10px 35px;
@@ -186,7 +186,7 @@ input[type=mail] {
 }
 
 /*input/form pass*/
-input[type=pass] {
+input[type=password] {
     width: 80%;
     padding: 15px 22px;
     margin: 8px 35px;
@@ -211,7 +211,7 @@ input[type=submit] {
 }
 
 /*input/form facebook*/
-input[type=facebook] {
+input[type=text] {
     width: 80%;
     padding: 15px 22px;
     margin: 1px 35px;
